@@ -48,8 +48,8 @@ if __name__ == "__main__":
     # 需要转换的类别，需要一一对应
     classes1 = ['hat', 'person']
     # 2、voc格式的xml标签文件路径
-    xml_files1 = r'D:\Desktop\yolov5-5.0\yolov5-5.0\data\VOC2028\Annotations'
+    xml_files1 = r'D:\Desktop\yolov5-5.0\yolov5-5.0\VOC2028\Annotations'
     # 3、转化为yolo格式的txt标签文件存储路径
-    save_txt_files1 = r'D:\Desktop\yolov5-5.0\yolov5-5.0\data\VOC2028\labels'
+    save_txt_files1 = r'D:\Desktop\yolov5-5.0\yolov5-5.0\VOC2028\txt_labels'
 
     convert_annotation(xml_files1, save_txt_files1, classes1)

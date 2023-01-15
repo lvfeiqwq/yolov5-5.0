@@ -3,6 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/yolov5-5.0/utils" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/yolov5-5.0/data/VOC2028/images" />
+      <excludeFolder url="file://$MODULE_DIR$/yolov5-5.0/data/VOC2028/labels" />
+      <excludeFolder url="file://$MODULE_DIR$/yolov5-5.0/data/VOC2028" />
+      <excludeFolder url="file://$MODULE_DIR$/yolov5-5.0/data/scripts" />
     </content>
     <content url="file://$MODULE_DIR$/yolov5-5.0/data/VOC2028/images" />
     <content url="file://$MODULE_DIR$/yolov5-5.0/data/VOC2028/labels" />
